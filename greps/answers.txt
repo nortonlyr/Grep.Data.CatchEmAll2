@@ -1,26 +1,48 @@
 # Part 1
 ### a)
-
+see files in captured directory
 
 
 
 ### b)
-
+see feiles in captured directory
 
 
 ### c)
 
+Beedrill is found in filescan_00.1
+
+blastoise is found in filescan_00.1
+
+bulbasaur is found in filescan_00.1
+
+butterfree is found in filescan_00.1
+
+charizard is found in filescan_00.2
+
+charmander is found in filescan_00.2
+
+charmeleon is found in filescan_00.2
+
+ivysaur is found in filescan_00.3
+
+jigglypuff is found in filescan_00.3
+
+meowth is found in filescan_00.3
+
+pikachu is found in filescan_00.3
+
+psyduck is found in filescan_00.4
+
+squirtle is found in filescan_00.4
+
+venusaur is found in filescan_00.4
+
+wartortle is found in filescan_00.4
 
 
 
-
-
-
-
-
-
-
-
+---------------------------------------------------------------------------------------
 
 # Part 2
 ### a)
@@ -31,8 +53,51 @@
 
 
 ### b)
+ The below results show that beedrill, charizard, and pikachu are the three biggest pokemons, all have 40 lines.
 
+beedrill has 40 lines
+grep -r -c 'ri' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
 
+blastoise has 38 lines
+grep -r -c 'to' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
 
+bulbasaur has 30 lines
+grep -r -c 'lb' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+butterfree has 38 lines
+grep -r -c 'fr' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+charizard has 40 lines
+grep -r -c 'iz' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+charmander has 36 lines
+grep -r -c 'ma' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+charmeleon has 37 lines
+grep -r -c 'el' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+ivysaur has 33 lines
+grep -r -c 'iv' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+jigglypuff has 34 lines
+grep -r -c 'ly' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+meowth has 33 lines
+grep -r -c 'th' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+pikachu has 40 lines
+grep -r -c 'hu' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+psyduck has 37 lines
+grep -r -c 'ck' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+squirtle has 34 lines
+grep -r -c 'sq' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+venusaur  has 32 lines
+grep -r -c 've' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+
+wartortle has 37 lines
+grep -r -c 'wa' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
 
 
