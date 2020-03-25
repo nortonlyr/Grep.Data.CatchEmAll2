@@ -1,16 +1,31 @@
 # Part 1
 ### a)
-see files in captured directory
-
+beedrill 	grep -r 'ri' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+blastoise  	grep -r 'to' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+bulbasaur 	grep -r 'lb' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+butterfree 	grep -r 'fr' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+charizard 	grep -r 'iz' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+charmander 	grep -r 'ma' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+charmeleon 	grep -r 'el' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+ivysaur 	grep -r 'iv' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+jigglypuff 	grep -r 'ly' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+meowth 		grep -r 'th' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+pikachu 	grep -r 'hu' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+psyduck 	grep -r 'ck' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+squirtle 	grep -r 'sq' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+venusaur 	grep -r 've' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
+wartortle 	grep -r 'wa' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
 
 
 ### b)
-see feiles in captured directory
+see files in captured directory
 
 
-### c)
+### c) 
 
-Beedrill is found in filescan_00.1
+grep -l '[keywords]' filescan_00.1   filescan_00.2   filescan_00.3   filescan_00.4
+
+beedrill is found in filescan_00.1
 
 blastoise is found in filescan_00.1
 
@@ -47,13 +62,16 @@ wartortle is found in filescan_00.4
 # Part 2
 ### a)
 
+The grep search can run in the /captured directory
+grep -c [a-z] * | wc -l
 
+15 pokemons results are shown
 
 
 
 
 ### b)
- The below results show that beedrill, charizard, and pikachu are the three biggest pokemons, all have 40 lines.
+The below results show that beedrill, charizard, and pikachu are the three biggest pokemons, all have 40 lines. (Grep -r -c '[keywords] filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4)
 
 beedrill has 40 lines
 grep -r -c 'ri' filescan_00.1 filescan_00.2 filescan_00.3 filescan_00.4
